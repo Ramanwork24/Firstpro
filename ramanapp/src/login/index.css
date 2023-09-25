@@ -1,0 +1,163 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --button-backgr:#2196F3;
+    --header-color: #565657;
+    --header-color1:#1C1B1C;
+    --button-hover:#335918;
+    --login-box: #f5f5ef;
+    --second-heading:#A3AED0;
+  }
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+   height:100vh;
+   width:100vw;
+   display: flex;
+}
+
+.sideimage{
+    background-image: url('./assets/bgimg.jpg');
+    width:45vw;
+    background-repeat: no-repeat;
+    background-position: fixex;
+    background-size: 100% 100%;
+    height:100vh;
+}
+
+.sideimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideimage > img{
+    height: 200px;
+}
+
+.sidelogo{
+    justify-content: center;
+    display: flex;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+    align-items: center;
+}
+
+.login-form{
+    max-width:320px;
+}
+
+.login-form >p{
+    margin-bottom:50px;
+    color:var(--second-heading);
+}
+
+.login-form >h1{
+    color:var(--button-hover);
+    margin-bottom:10px;
+}
+.input-field1{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+
+.input-field{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.input-field1 > input{
+    height:40px;
+    width:320px;
+    border-radius:10px ;  
+    padding-left: 7px; 
+    border: 1px solid #EDEDED; 
+  }
+
+
+.input-field > input{
+  height:40px;
+  width:320px;
+  padding-left: 7px;
+  border-radius:10px ;    
+  border: 1px solid #EDEDED;
+  margin-bottom:20px;
+}
+
+.button-field{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+
+#login-button{
+    height:40px;
+    width:320px;
+    padding-left: 7px;
+    border-radius:10px ;    
+    border: 1px solid #EDEDED;
+    background-color:var(--button-hover);
+}
+
+.check{
+    display: flex;
+    margin-top:20px;
+}
+.check1{
+    display: flex;
+
+}
+.check1 >p{
+    margin-left:5px;
+    font-size: 0.9rem;
+}
+
+.forgetpass{
+    margin-left:50px;
+    color:var(--button-hover);
+}
+
+
+@media (max-width: 768px){
+
+    .sideimage{display:none;
+
+    }
+    .form-wrapper{
+        width:100vw;
+    }
+}
+
+@media  (max-width: 330px){
+    
+    .login-form{
+        width:80vw;
+        padding-left:50px;
+        padding-right:50px;
+
+    }
+    
+}
+
+@media  (max-width: 420px){
+    
+    .login-form{
+        width:90vw;
+        padding-left:50px;
+        padding-right:50px;
+
+    }
+    
+}
+
+
